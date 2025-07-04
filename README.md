@@ -111,7 +111,6 @@ python-dotenv
 Travel_Planner_Agents/
 ├── main.py                 # Entry point and user interaction
 ├── travel_planner.py       # Alternative entry point
-├── test.py                 # Environment testing script
 ├── travel_plan.md          # Generated travel plan output
 ├── .env                    # Environment variables (create this)
 ├── requirements.txt        # Python dependencies (create this)
@@ -201,35 +200,6 @@ The system generates travel plans in Markdown format including:
    Invalid date format. Use YYYY-MM-DD.
    ```
    **Solution**: Enter dates in the correct format (e.g., 2025-07-15)
-
-### Testing Environment
-
-Run the test script to verify your setup:
-```bash
-python test.py
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- [CrewAI](https://github.com/joaomdmoura/crewai) for the multi-agent framework
-- [OpenAI](https://openai.com) for GPT models
-- [SerperDev](https://serper.dev) for web search capabilities
-
-## 📧 Support
-
-For questions or support, please open an issue in the repository or contact the development team.
 
 ---
 
